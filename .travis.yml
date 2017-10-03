@@ -1,8 +1,9 @@
 language: objective-c
-osx_image:
+matrix:
+- osx_image:
   - xcode8.3
   - xcode9
-env:
+- env:
   - REACT_NATIVE_VERSION=0.44.2
   - REACT_NATIVE_VERSION=0.48.4
 
